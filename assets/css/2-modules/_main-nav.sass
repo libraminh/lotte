@@ -1,0 +1,48 @@
+.main-nav
+  background: transparent
+  border: none
+  padding: 10px 0
+
+  a
+    color: $text-color !important
+    font-size: 13px
+    font-weight: 600
+    transition: all .2s ease-in-out
+
+    &:hover::after
+      width: 100% !important
+
+  .navbar-nav a:after
+    display: block
+    content: ''
+    width: 0%
+    height: 2px
+    margin: 0 auto
+    background: $text-color
+    transition: all .3s ease-in-out
+
+  .navbar-brand
+    width: 100px
+    text-indent: -9999px
+
+  .navbar-toggle
+    background: $primary-color
+    border-color: $text-color
+    transition: all .2s ease-in-out
+
+    &:hover
+      background: $white-color
+
+/**** LOGO BRAND ****/
+.logo-1
+  margin-right: 25px
+  background:
+    image: url(../img/logo1.png)
+    repeat: no-repeat
+
+.logo-2
+  background:
+    image: url(../img/logo2.png)
+    repeat: no-repeat
+    size: contain
+    position: center 5px
