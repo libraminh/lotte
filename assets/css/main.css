@@ -6365,3 +6365,7 @@ section.ads {
     padding-left: 25px; }
   .main-nav li {
     border-bottom: 2px solid #202020; } }
+
+@media (max-width: 768px) {
+  .container {
+    width: 95% !important; } }
